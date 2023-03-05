@@ -1,0 +1,18 @@
+.why {
+  height: 786px;
+  background-color: #F2F7FF;
+}
+
+.cards {
+  width: 540px;
+  height: 540px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.text-cards {
+  display: flex;
+  justify-content: center;
+  gap: 53px;
+}

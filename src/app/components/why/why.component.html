@@ -1,0 +1,11 @@
+<div class="why center">
+  <div class="container text-cards center-y">
+    <app-why-text [text]="text"></app-why-text>
+    <div class="cards">
+      <app-why-card
+        *ngFor="let card of cards"
+        [card] = "card"
+      ></app-why-card>
+    </div>
+  </div>
+</div>
