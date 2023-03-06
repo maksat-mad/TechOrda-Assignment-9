@@ -1,7 +1,18 @@
 <div class="testimonial center">
   <div class="container flex-col">
-    <h1 class="title">Clients Testimonial</h1>
-    <h1 class="title">Clients Testimonial</h1>
-    <h1 class="title">Clients Testimonial</h1>
+    <h1 class="title">{{title}}</h1>
+    <div class="reviews">
+      <div *ngFor="let review of reviews">
+        <app-testimonial-card
+          [title]="review.reviewTitle"
+          [content]="review.reviewContent"
+        ></app-testimonial-card>
+        <app-testimonial-user
+          [name]="review.name"
+          [occupation]="review.occupation"
+          [imgPath]="review.imgPath"
+        ></app-testimonial-user>
+      </div>
+    </div>
   </div>
 </div>

@@ -1,0 +1,34 @@
+.user {
+  display: flex;
+  justify-content: center;
+  margin-top: 28px;
+  cursor: pointer;
+}
+
+.name-occupation {
+  padding-left: 16px;
+}
+
+.name {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+
+  font-feature-settings: 'salt' on, 'liga' off;
+
+  color: #151617;
+}
+
+.occupation {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+
+  font-feature-settings: 'salt' on, 'liga' off;
+
+  color: #4F4F4F;
+}
