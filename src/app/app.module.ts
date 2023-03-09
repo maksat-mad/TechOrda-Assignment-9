@@ -24,6 +24,10 @@ import { CtaComponent } from './components/cta/cta.component';
 import { CtaTextComponent } from './components/cta/cta-text/cta-text.component';
 import { CtaButtonComponent } from './components/cta/cta-button/cta-button.component';
 import { CtaImageComponent } from './components/cta/cta-image/cta-image.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { SubFooterComponent } from './components/footer/sub-footer/sub-footer.component';
+import { FooterLogoComponent } from './components/footer/footer-logo/footer-logo.component';
+import { FooterLinkComponent } from './components/footer/footer-link/footer-link.component';
 
 @NgModule({
   declarations: [
@@ -48,7 +52,11 @@ import { CtaImageComponent } from './components/cta/cta-image/cta-image.componen
     CtaComponent,
     CtaTextComponent,
     CtaButtonComponent,
-    CtaImageComponent
+    CtaImageComponent,
+    FooterComponent,
+    SubFooterComponent,
+    FooterLogoComponent,
+    FooterLinkComponent
   ],
   imports: [
     BrowserModule,
