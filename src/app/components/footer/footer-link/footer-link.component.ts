@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import {Component, Input} from '@angular/core';
+import {FooterLink} from "../../../models/footer-link";
 
 @Component({
   selector: 'app-footer-link',
@@ -6,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./footer-link.component.scss']
 })
 export class FooterLinkComponent {
-
+  @Input() footerLink!: FooterLink;
 }

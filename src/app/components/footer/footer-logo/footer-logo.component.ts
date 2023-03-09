@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./footer-logo.component.scss']
 })
 export class FooterLogoComponent {
-
+  logoName = 'Lawliet';
 }

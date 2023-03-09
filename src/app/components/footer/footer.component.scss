@@ -2,3 +2,22 @@
   height: 432px;
   background-color: #094B72;
 }
+
+.container-small {
+  width: 1100px;
+}
+
+.d-flex-space-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo-placer {
+  height: 294px;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}

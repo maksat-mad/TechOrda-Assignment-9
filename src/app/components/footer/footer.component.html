@@ -1,6 +1,14 @@
-<footer class="footer">
-  <div class="container">
-
+<footer class="footer center">
+  <div class="container-small d-flex-space-between center-y">
+    <div class="logo-placer">
+      <app-footer-logo></app-footer-logo>
+    </div>
+    <div class="footer-links">
+      <app-footer-link
+        *ngFor="let link of links"
+        [footerLink]="link"
+      ></app-footer-link>
+    </div>
   </div>
 </footer>
 <app-sub-footer></app-sub-footer>

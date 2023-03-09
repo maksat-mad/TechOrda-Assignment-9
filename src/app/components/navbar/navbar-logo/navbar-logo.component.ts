@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./navbar-logo.component.scss']
 })
 export class NavbarLogoComponent {
-
+  logoName = 'Lawliet';
 }

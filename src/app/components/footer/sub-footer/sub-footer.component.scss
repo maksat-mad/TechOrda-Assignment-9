@@ -31,3 +31,12 @@
   gap: 16px;
   align-items: center;
 }
+
+.social-icon {
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+}
+
+.social-icon:hover {
+  transform: scale(1.75);
+}
