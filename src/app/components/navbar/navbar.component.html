@@ -1,14 +1,14 @@
 <div class="navbar">
   <div class="navbar-content">
-    <app-navbar-logo></app-navbar-logo>
+    <div class="logo-group">
+      <img class="logo-photo" src="./assets/navbar/Logo.svg" alt="logo"/>
+      <p class="logo-text">Lawliet</p>
+    </div>
     <div class="link-search-group">
       <div class="navbar-links">
-        <app-navbar-link
-          *ngFor="let link of links"
-          [link]="link"
-        ></app-navbar-link>
+        <p *ngFor="let link of links" class="link">{{link | uppercase}}</p>
       </div>
-    <app-navbar-search></app-navbar-search>
+      <img class="search-icon" src="./assets/navbar/Vector.svg" alt="search-icon"/>
     </div>
   </div>
 </div>

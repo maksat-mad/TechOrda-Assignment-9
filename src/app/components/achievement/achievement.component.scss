@@ -30,3 +30,35 @@ table tr:last-child td {
 table tr td:last-child {
   border-right: 0;
 }
+
+.title {
+  font-family: 'Playfair Display', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 64px;
+
+  text-align: center;
+  letter-spacing: 0.005em;
+  font-feature-settings: 'salt' on, 'liga' off;
+
+  color: #FFFFFF;
+
+  min-width: 255px;
+}
+
+.content {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+
+  text-align: center;
+  letter-spacing: 0.5px;
+  font-feature-settings: 'salt' on, 'liga' off;
+
+  color: #FFFFFF;
+
+  min-width: 255px;
+}

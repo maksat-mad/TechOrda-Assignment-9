@@ -1,13 +1,18 @@
 <footer class="footer center">
   <div class="container-small d-flex-space-between center-y">
     <div class="logo-placer">
-      <app-footer-logo></app-footer-logo>
+      <div class="logo-group">
+        <img class="logo-photo" src="./assets/footer/Logo.png" alt="logo"/>
+        <p class="logo-text">Lawliet</p>
+      </div>
     </div>
     <div class="footer-links">
-      <app-footer-link
-        *ngFor="let link of links"
-        [footerLink]="link"
-      ></app-footer-link>
+      <div class="footer-links-wrapper" *ngFor="let footerLink of links">
+        <h4 class="title">{{footerLink.title}}</h4>
+        <div class="col-flex-gap-12">
+          <p class="link" *ngFor="let link of footerLink.links">{{link}}</p>
+        </div>
+      </div>
     </div>
   </div>
 </footer>

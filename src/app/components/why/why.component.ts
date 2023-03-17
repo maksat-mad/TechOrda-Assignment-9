@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import {Text} from '../../models/text';
 import {Card} from "../../models/card";
 
 @Component({
@@ -8,29 +7,29 @@ import {Card} from "../../models/card";
   styleUrls: ['./why.component.scss']
 })
 export class WhyComponent {
-  text: Text = {
-    title: 'Why do we help with legalization?',
-    content: 'We are here for UMKM in Indonesia to carry out the legalization process, which is sometimes complicated.'
-  };
+  circleImg = '../../../../assets/why/circle.png';
+  bagImg = '../../../../assets/why/bag.png';
+  rocketImg = '../../../../assets/why/rocket.png';
+  userArrowsImg = '../../../../assets/why/user-arrows.png';
 
   cards: Card[] = [
     {
-      path: '../../../../assets/why/circle.png',
+      path: this.circleImg,
       title: 'Enviromental Law',
       content: 'Environmental legal issues might occur since the planned business activities are designed'
     },
     {
-      path: '../../../../assets/why/bag.png',
+      path: this.bagImg,
       title: 'Corporate and Commercial',
       content: 'We provide a complete range of services for the continuity of your business activities.'
     },
     {
-      path: '../../../../assets/why/rocket.png',
+      path: this.rocketImg,
       title: 'Information and Technology',
       content: 'IT not followed by the existing regulation which might cause legal uncertainty and business uncertainty.'
     },
     {
-      path: '../../../../assets/why/user-arrows.png',
+      path: this.userArrowsImg,
       title: 'Other Services',
       content: 'In dealing with disruptive economic and legal challenge, our firm also provide various legal services.'
     }

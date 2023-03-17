@@ -21,3 +21,64 @@
   justify-content: space-between;
   gap: 30px;
 }
+
+.logo-group {
+  width: 159px;
+  height: 54px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-photo {
+  width: 54px;
+  height: 54px;
+}
+
+.logo-text {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 23px;
+  letter-spacing: 1.5px;
+  color: #F9F8F9;
+}
+
+.footer-links-wrapper {
+  width: 160px;
+}
+
+.title {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  font-feature-settings: 'salt' on, 'liga' off;
+  color: #F4F5F7;
+  margin-bottom: 32px;
+  cursor: pointer;
+}
+
+.col-flex-gap-12 {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.link {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  font-feature-settings: 'salt' on, 'liga' off;
+  color: #EEEFF4;
+  cursor: pointer;
+}
+
+.title:hover, .link:hover {
+  color: crimson;
+}

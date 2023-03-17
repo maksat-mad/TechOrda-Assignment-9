@@ -1,17 +1,21 @@
 <div class="achievement center center-y">
   <div class="container">
-    <app-achievement-text [text]="texts[0]"></app-achievement-text>
+    <h1 class="title">Some count that matters</h1>
+    <p class="content">Our achievement in the journey depicted in numbers</p>
     <div class="center center-y mt-48">
       <table>
         <tr>
           <td>
-            <app-achievement-text [text]="texts[1]"></app-achievement-text>
+            <h1 class="title">{{texts[0].title}}</h1>
+            <p class="content">{{texts[0].content}}</p>
           </td>
           <td>
-            <app-achievement-text [text]="texts[2]"></app-achievement-text>
+            <h1 class="title">{{texts[1].title}}</h1>
+            <p class="content">{{texts[1].content}}</p>
           </td>
           <td>
-            <app-achievement-text [text]="texts[3]"></app-achievement-text>
+            <h1 class="title">8</h1>
+            <p class="content">Years of Journey</p>
           </td>
         </tr>
       </table>

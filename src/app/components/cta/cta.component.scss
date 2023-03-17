@@ -11,3 +11,70 @@
   display: flex;
   gap: 22px;
 }
+
+.title {
+  font-family: 'Playfair Display', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+
+  letter-spacing: 0.5px;
+  font-feature-settings: 'salt' on, 'liga' off;
+
+  color: #2D2F30;
+}
+
+.content {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+
+  letter-spacing: 0.5px;
+
+  margin-top: 15px;
+  color: #4F4F4F;
+}
+
+.button {
+  margin-top: 15px;
+  width: 219px;
+  height: 64px;
+  background: #094B72;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+}
+
+.button:hover {
+  transform: scale(1.05);
+}
+
+.gap-button {
+  display: flex;
+  gap: 17.33px;
+}
+
+.call-text {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 36px;
+
+  letter-spacing: 0.5px;
+
+  color: #F9F8F9;
+}
+
+.person-photo {
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+  border-radius: 0 0 0 40px;
+}
+
+.person-photo:hover {
+  transform: scale(1.05);
+}

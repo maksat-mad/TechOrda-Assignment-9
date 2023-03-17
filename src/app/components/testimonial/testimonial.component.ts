@@ -7,12 +7,12 @@ import {Review} from "../../models/review";
   styleUrls: ['./testimonial.component.scss']
 })
 export class TestimonialComponent {
-  title = 'Clients Testimonial';
+  userAva = '../../../../assets/testimonial/Photo.png';
   reviews: Review[] = [
     {
       name: 'Anya Tailor Joy',
       occupation: 'CEO, SF Industires',
-      imgPath: '../../../../assets/testimonial/Photo.png',
+      imgPath: this.userAva,
       reviewTitle: 'Incredible Experience',
       reviewContent: 'We had an incredible experience working with Landify' +
         ' and were impressed they made such a big difference in only three weeks. ' +
@@ -22,7 +22,7 @@ export class TestimonialComponent {
     {
       name: 'Sri Alam',
       occupation: 'CEO, Membagongkan GROUP',
-      imgPath: '../../../../assets/testimonial/Photo.png',
+      imgPath: this.userAva,
       reviewTitle: 'Dependable, Responsive, Professional Partner',
       reviewContent: 'Fermin Apps has collaborated with Landify team for several' +
         ' projects such as Photo Sharing Apps and Custom Social Networking Apps. ' +

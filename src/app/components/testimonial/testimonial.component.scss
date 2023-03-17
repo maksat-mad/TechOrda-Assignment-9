@@ -30,3 +30,85 @@
   gap: 30px;
   margin-top: 51px;
 }
+
+.card {
+  width: 540px;
+  height: 220px;
+  background-color: #FFFFFF;
+  border-radius: 10px;
+
+  cursor: pointer;
+
+  transition: all 0.4s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card-title {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+
+  text-align: center;
+  font-feature-settings: 'salt' on, 'liga' off;
+
+  color: #151617;
+
+  padding-top: 32px;
+}
+
+.card-content {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+
+  text-align: center;
+  letter-spacing: 0.5px;
+  font-feature-settings: 'salt' on, 'liga' off;
+
+  color: #4F4F4F;
+
+  margin-top: 8px;
+  padding: 0 32px 32px 32px;
+}
+
+.user {
+  display: flex;
+  justify-content: center;
+  margin-top: 28px;
+  cursor: pointer;
+}
+
+.name-occupation {
+  padding-left: 16px;
+}
+
+.name {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+
+  font-feature-settings: 'salt' on, 'liga' off;
+
+  color: #151617;
+}
+
+.occupation {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+
+  font-feature-settings: 'salt' on, 'liga' off;
+
+  color: #4F4F4F;
+}

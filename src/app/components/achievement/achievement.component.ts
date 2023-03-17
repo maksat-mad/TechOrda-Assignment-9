@@ -9,20 +9,12 @@ import {Text} from '../../models/text';
 export class AchievementComponent {
   texts: Text[] = [
     {
-      title: 'Some count that matters',
-      content: 'Our achievement in the journey depicted in numbers'
-    },
-    {
       title: '30',
       content: 'Clients'
     },
     {
       title: '300+',
       content: 'Taken business legalities'
-    },
-    {
-      title: '8',
-      content: 'Years of Journey'
     }
   ];
 }
